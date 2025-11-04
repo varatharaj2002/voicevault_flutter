@@ -1,0 +1,55 @@
+name: voicevault
+description: "A Flutter dictation app project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Free speech recognition (live or limited file playback)
+  speech_to_text: ^4.2.2
+
+  # Audio recording
+  record: ^6.1.1
+
+  # iOS-style icons
+  cupertino_icons: ^1.0.8
+
+  # Local storage for user data
+  shared_preferences: ^2.3.2
+
+  # Audio playback
+  audioplayers: ^6.1.0
+
+  # HTTP requests for backend (optional)
+  http: ^1.2.2
+
+  # Permissions (for microphone)
+  permission_handler: ^11.3.1
+
+  # Icons for UI
+  font_awesome_flutter: ^10.7.0
+
+  # File path utilities
+  path_provider: ^2.0.15
+
+  # Date/time utilities
+  intl: ^0.18.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/dummy_avatar.png
