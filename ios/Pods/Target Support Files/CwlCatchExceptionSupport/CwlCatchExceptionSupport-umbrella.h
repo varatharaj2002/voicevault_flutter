@@ -10,8 +10,8 @@
 #endif
 #endif
 
-#import "WBTry.h"
+#import "CwlCatchException.h"
 
-FOUNDATION_EXPORT double TryVersionNumber;
-FOUNDATION_EXPORT const unsigned char TryVersionString[];
+FOUNDATION_EXPORT double CwlCatchExceptionSupportVersionNumber;
+FOUNDATION_EXPORT const unsigned char CwlCatchExceptionSupportVersionString[];
 
