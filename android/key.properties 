@@ -1,0 +1,4 @@
+storePassword=voice123456
+keyPassword=voice123456
+keyAlias=voicevault
+storeFile=/Users/dth2021/voicevault-key.jks

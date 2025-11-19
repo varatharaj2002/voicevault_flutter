@@ -1,0 +1,54 @@
+name: voicevault
+description: "A Flutter dictation app project."
+publish_to: 'none' # prevents accidental publishing to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # 🎙️ Audio recording (for dictation)
+  record: ^6.1.1
+
+  # 🔊 Audio playback (for user recordings)
+  audioplayers: ^6.5.1
+
+  # 🧠 Live speech-to-text (for real-time dictation)
+  speech_to_text: ^7.3.0
+
+  # 📂 File management (for saving per user)
+  path_provider: ^2.1.5
+
+  # 🌐 HTTP (for calling OpenAI Whisper API)
+  http: ^1.5.0
+
+  # ⚙️ Permissions (microphone, storage)
+  permission_handler: ^11.3.1
+
+  # 💾 Local storage (for login/signup info)
+  shared_preferences: ^2.3.2
+
+  # 🕓 Date/time utilities (if you timestamp recordings)
+  intl: ^0.18.1
+
+  # 💅 Icons and Cupertino support
+  cupertino_icons: ^1.0.8
+  font_awesome_flutter: ^10.7.0
+  path: ^1.9.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # ✅ Linting rules for better Flutter code style
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/dummy_avatar.png

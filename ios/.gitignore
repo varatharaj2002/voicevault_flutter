@@ -1,0 +1,134 @@
+# ------------------------------------
+# FLUTTER & DART IGNORE
+# ------------------------------------
+
+.dart_tool/
+.packages
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+generated_plugin_registrant.dart
+
+# Android
+**/android/**/build/
+**/android/**/captures/
+*.iml
+.gradle/
+local.properties
+key.properties
+
+# iOS
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/ephemeral/
+**/ios/Pods/
+**/ios/Runner.xcworkspace/
+**/ios/Runner/GeneratedPluginRegistrant.*
+**/ios/ServiceDefinitions.json
+**/ios/.symlinks/
+profile
+xcuserdata/
+**/DerivedData/
+Icon?
+*.mode1v3
+*.mode2v3
+*.moved-aside
+*.pbxuser
+*.perspectivev3
+!default.mode1v3
+!default.mode2v3
+!default.pbxuser
+!default.perspectivev3
+
+# macOS
+**/macos/Flutter/ephemeral/
+**/macos/Pods/
+**/macos/build/
+**/macos/.symlinks/
+
+# Windows
+**/windows/flutter/ephemeral/
+**/windows/build/
+
+# Linux
+**/linux/flutter/ephemeral/
+**/linux/build/
+
+# Web
+**/web/.dart_tool/
+**/web/build/
+
+# IDEs
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Node / Backend (if any)
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Secrets & Environment
+.env
+.env.*
+*.jks
+*.keystore
+*.pem
+*.key
+*.crt
+secrets.json
+
+# System files
+.DS_Store
+*.log
+*.tmp
+*.swp
+Thumbs.db
+ehthumbs.db
+
+# Coverage & test output
+coverage/
+test_output.xml
+
+# ------------------------------------
+# FASTAPI / PYTHON IGNORE
+# ------------------------------------
+
+# Python virtual environment
+venv/
+fastapi_backend/venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Large libraries (Torch, Whisper, etc.)
+*.so
+*.dylib
+*.dll
+*.bin
+*.pt
+
+# Pip build folders
+pip-wheel-metadata/
+
+# SQLite databases (optional)
+*.db
+
+# ------------------------------------
+# EXTRA SAFETY
+# ------------------------------------
+
+# Do NOT track Firebase secret files
+firebase.json
+google-services.json
+GoogleService-Info.plist
